@@ -1,4 +1,4 @@
-Ans Q1 The current Memory Capacity of a Canister is 2^32 bytes
+Ans Q1 The original Memory Capacity of a Canister was 2^32 bytes but was increased to 32GB stable memory in Proposal 86279, and upto 48GB via Proposal 92573 
 
 Ans Q2 Counter is a constant and can not be re-assigned in the following line
     counter := counter +1
