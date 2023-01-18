@@ -95,7 +95,32 @@ actor {
 
 
    public query func find_duplicates(a : [Nat]) : async [Nat] {
-    
+  
+  /*
+      let f = func (n : Nat, n1 : Nat) : Bool {
+        if (n == n1) {
+            return true
+        } else {
+            return false
+        };
+      };
+
+      public func finditem(array : [Nat]) : async ?Nat {
+        return(Array.find<Nat>(array, f));
+      };
+
+      var sorted_array : [Nat] = [0];
+      for (n1 : Nat in a.vals()){
+        if finditem(a){
+          sorted_array.append(n1);
+        }
+      }
+      return sorted_array;
+
+
+    */
+  
+  
         var sorted_array : [Nat] = Array.sortInPlace(a, compare);//Array.sortInPlace(a, compare);
 
         return sorted_array;    
