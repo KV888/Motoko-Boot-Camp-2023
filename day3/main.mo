@@ -19,9 +19,19 @@ actor {
             xs,
             nil<bookarray>(),
             func(x : bookarray, ys : List<bookarray>) : List<bookarray> {
-            push<bookarray>(x, ys)
-      }
-    )
-  };
+                push<bookarray>(x, ys)
+            }
+        )
+    };
+    
+    public func getbooks() : ?bookarray {    
+          return bookarray;
+    };
+
+    public func addbook(x : Entry) : List<bookarray> {
+          var newentry : List = func make<Entry>(x : Entry) : List<Entry>;
+          List.append<Entry>(newentry, List<bookarray>);
+    };
+    
 
 };
