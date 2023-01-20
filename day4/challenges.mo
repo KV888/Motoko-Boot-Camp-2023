@@ -15,6 +15,7 @@ actor {
   public query func unique(l : List): async List {
       var newList = List();
       for (item in l.size()) {
+          // if(assert not newList.contains(item))
           if(!newList.contains(item)) {
           newList.append(item);
           }
