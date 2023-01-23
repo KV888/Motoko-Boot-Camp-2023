@@ -1,6 +1,6 @@
 # Dao Core Project Final Submission
 
-Tested Backend locally with minimal (6 functions) to Graduate
+Tested Backend locally with minimal (6 functions) to Graduate working great as required!
 
 func submit_proposal() 
 func vote ()
